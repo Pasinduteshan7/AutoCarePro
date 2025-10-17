@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -151,21 +150,44 @@ header .contact-info p {
     padding: 30px;
     text-align: center;
     width: calc(45% - 20px);
+    color: #222 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-box h3, .service-box p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .service-box h3 {
     font-size: 2rem;
-    color: #007bff;
+    color: #007bff !important;
+    font-weight: 600;
     margin-bottom: 15px;
+    
 }
 
-.service-box p { font-size: 1.2rem; color: #333; line-height: 1.6; }
+.service-box p { font-size: 1.2rem; color: #333 !important; font-weight: 400; line-height: 1.6;display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
 
-.premium-services { padding: 50px; background-color: #e0e0e0; border-radius: 12px; margin: 20px auto; max-width: 95%; text-align: center; }
+.premium-services { padding: 50px; background-color: #fdfdfd; border-radius: 12px; margin: 20px auto; max-width: 95%; text-align: center; }
 .services-container { display:flex; flex-wrap:wrap; justify-content:center; gap:30px }
 .service { width: calc(45% - 30px); padding: 40px; border: 2px solid #ccc; border-radius: 15px; background:#fff; text-align:center }
 .service-icon { font-size: 4rem; margin-bottom: 20px; color: #0078d4 }
 .service-title { font-size: 2rem; font-weight:bold }
 .service-description { font-size:1.2rem; color:#555 }
 
-footer { background-color:#333; color:white; text-align:center; padding:10px 0; position:fixed; bottom:0; width:100% }
+footer { background-color:#333; color:white; text-align:center; padding:10px 0; position:static; bottom:0; width:100% }
+
+main {
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
