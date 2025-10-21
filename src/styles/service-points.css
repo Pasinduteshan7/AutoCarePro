@@ -1,0 +1,6 @@
+@import './index.css';
+
+.service-points { padding:20px }
+#map { height:500px; width:100%; margin-top:20px; border-radius:8px }
+.branches { padding:20px; background:#f9f9f9; border-radius:8px; margin-top:20px }
+.city h3 { margin-top:20px; color:#e71401 }

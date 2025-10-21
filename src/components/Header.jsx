@@ -22,9 +22,9 @@ export default function Header(){
           <li><Link to="/about">About</Link></li>
           <li><Link to="/service">Service</Link></li>
           <li><Link to="/price">Price</Link></li>
-          <li><Link to="/service-points">Service Points</Link></li>
+          <li><Link to="/servicepoints">ServicePoints</Link></li>
         </ul>
-        <button className="appointment-btn" onClick={() => window.location.href = '/appoint'}>Get Appointment</button>
+        <button className="appointment-btn" onClick={() => window.location.href = '/appoint'}>Appointment</button>
       </nav>
     </header>
   )
